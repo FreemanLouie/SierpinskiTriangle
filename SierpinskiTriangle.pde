@@ -14,7 +14,7 @@ public void draw()
 }
 public void mouseDragged()//optional
 {
-  sizeX = mouseX;
+  sizeX = mouseX*2;
   fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 }
 public void sierpinski(int x, int y, int len) 
